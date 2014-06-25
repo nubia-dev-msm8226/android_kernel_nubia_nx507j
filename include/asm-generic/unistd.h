@@ -695,7 +695,7 @@ __SC_COMP(__NR_process_vm_writev, sys_process_vm_writev, \
 __SYSCALL(__NR_finit_module, sys_finit_module)
 #define __NR_seccomp 277
 __SYSCALL(__NR_seccomp, sys_seccomp)
- 
+
 #undef __NR_syscalls
 #define __NR_syscalls 278
 
